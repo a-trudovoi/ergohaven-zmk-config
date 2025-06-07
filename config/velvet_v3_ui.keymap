@@ -19,6 +19,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        tilde {
+            bindings = <&kp GRAVE>;
+            key-positions = <3 4>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -144,7 +153,10 @@
 
     scroller {
         layers = <5>;
-        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT | INPUT_TRANSFORM_X_INVERT )>, <&zip_xy_scaler 1 32>, <&zip_xy_to_scroll_mapper>;
+        input-processors =
+            <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT | INPUT_TRANSFORM_X_INVERT )>,
+            <&zip_xy_scaler 1 32>,
+            <&zip_xy_to_scroll_mapper>;
     };
 
     sniper {
