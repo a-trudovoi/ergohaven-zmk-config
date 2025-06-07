@@ -17,6 +17,62 @@
             #binding-cells = <2>;
             tapping-term-ms = <150>;
         };
+
+        tdls: tdls {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TDLS";
+            #binding-cells = <0>;
+            bindings = <&mt LEFT_SHIFT F>, <&kp F>;
+        };
+
+        tdlc: tdlc {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TDLC";
+            #binding-cells = <0>;
+            bindings = <&mt LEFT_CONTROL D>, <&kp D>;
+        };
+
+        tdla: tdla {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TDLA";
+            #binding-cells = <0>;
+            bindings = <&mt LEFT_ALT S>, <&kp S>;
+        };
+
+        tdlg: tdlg {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TDLG";
+            #binding-cells = <0>;
+            bindings = <&mt LEFT_GUI A>, <&kp A>;
+        };
+
+        tdrs: tdrs {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TDRS";
+            #binding-cells = <0>;
+            bindings = <&mt RIGHT_SHIFT J>, <&kp J>;
+        };
+
+        tdrc: tdrc {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TDRC";
+            #binding-cells = <0>;
+            bindings = <&mt RCTRL K>, <&kp K>;
+        };
+
+        tdra: tdra {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TDRA";
+            #binding-cells = <0>;
+            bindings = <&mt RIGHT_ALT L>, <&kp L>;
+        };
+
+        tdrg: tdrg {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TDRG";
+            #binding-cells = <0>;
+            bindings = <&mt LEFT_GUI SEMICOLON>, <&kp SEMICOLON>;
+        };
     };
 
     combos {
