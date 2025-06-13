@@ -80,6 +80,12 @@
             key-positions = <27 28>;
             layers = <11>;
         };
+
+        n5 {
+            bindings = <&kp N5>;
+            key-positions = <1 2>;
+            layers = <11>;
+        };
     };
 
     keymap {
@@ -198,10 +204,10 @@
 
         Krita {
             bindings = <
-&kp ESC  &kp Q        &kp G      &kp R      &kp A        &kp INS                         &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB  &kp LSHFT    &kp LCTRL  &kp LALT   &kp T        &kp H                           &trans  &trans  &trans  &trans  &trans  &trans
-&kp Z    &kp LA(INS)  &kp PG_DN  &kp PG_UP  &kp C        &kp V                           &trans  &trans  &trans  &trans  &trans  &trans
-                      &kp BSPC   &kp DEL    &mt E LA(E)  &TD_Brush  &kp SPACE    &trans  &tog 0  &trans  &trans  &trans
+&kp ESC  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp R      &kp A        &kp INS                         &trans   &trans  &trans  &trans  &trans  &trans
+&kp TAB  &kp LSHFT         &kp LCTRL          &kp LALT   &kp T        &kp H                           &trans   &trans  &trans  &trans  &trans  &trans
+&kp Z    &kp LA(G)         &kp PG_DN          &kp PG_UP  &kp C        &kp V                           &trans   &trans  &trans  &trans  &trans  &trans
+                           &kp BSPC           &kp DEL    &mt E LA(E)  &TD_Brush  &kp SPACE    &trans  &tog 11  &trans  &trans  &trans
             >;
         };
     };
