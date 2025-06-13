@@ -198,10 +198,10 @@
 
         Krita {
             bindings = <
-&kp ESC  &kp Q        &kp G      &kp R      &kp A        &kp INS                        &none   &none  &none  &none  &none  &none
-&kp TAB  &kp LSHFT    &kp LCTRL  &kp LALT   &kp T        &kp H                          &none   &none  &none  &none  &none  &none
-&kp Z    &kp LA(INS)  &kp PG_DN  &kp PG_UP  &kp C        &kp V                          &none   &none  &none  &none  &none  &none
-                      &kp BSPC   &kp DEL    &mt E LA(E)  &TD_Brush  &kp SPACE    &none  &tog 0  &none  &none  &none
+&kp ESC  &kp Q        &kp G      &kp R      &kp A        &kp INS                         &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB  &kp LSHFT    &kp LCTRL  &kp LALT   &kp T        &kp H                           &trans  &trans  &trans  &trans  &trans  &trans
+&kp Z    &kp LA(INS)  &kp PG_DN  &kp PG_UP  &kp C        &kp V                           &trans  &trans  &trans  &trans  &trans  &trans
+                      &kp BSPC   &kp DEL    &mt E LA(E)  &TD_Brush  &kp SPACE    &trans  &tog 0  &trans  &trans  &trans
             >;
         };
     };
