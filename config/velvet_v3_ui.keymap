@@ -196,7 +196,7 @@
             bindings = <
 &kp ESC          &kp RET    &kp M          &kp N5         &kp R      &kp T                        &trans   &trans  &trans  &trans  &trans  &trans
 &kp TAB          &kp LSHFT  &kp Z          &kp A          &TD_Erase  &kp H                        &trans   &trans  &trans  &trans  &trans  &trans
-&TD_Colorpeaker  &kp LALT   &kp LC(C)      &kp LC(V)      &kp V      &kp M                        &trans   &trans  &trans  &trans  &trans  &trans
+&TD_Colorpeaker  &kp LALT   &kp F          &kp C          &kp V      &kp M                        &trans   &trans  &trans  &trans  &trans  &trans
                             &kp LS(SPACE)  &kp LC(SPACE)  &TD_Brush  &mo 12  &kp SPACE    &trans  &tog 11  &trans  &trans  &trans
             >;
         };
