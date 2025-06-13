@@ -169,6 +169,15 @@
 
             label = "User3";
         };
+
+        Krita {
+            bindings = <
+&kp ESC  &kp Q        &kp G      &kp R      &kp A  &kp INS                      &none   &none  &none  &none  &none  &none
+&kp TAB  &kp LSHFT    &kp LCTRL  &kp LALT   &kp T  &kp H                        &none   &none  &none  &none  &none  &none
+&kp Z    &kp LA(INS)  &kp PG_DN  &kp PG_UP  &kp V  &kp J                        &none   &none  &none  &none  &none  &none
+                      &kp BSPC   &kp DEL    &kp E  &kp B    &kp SPACE    &none  &tog 0  &none  &none  &none
+            >;
+        };
     };
 };
 
