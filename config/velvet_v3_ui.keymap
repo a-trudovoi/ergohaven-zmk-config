@@ -194,10 +194,10 @@
 
         Krita1 {
             bindings = <
-&kp ESC          &kp RET    &kp LC(S)               &kp X                   &kp R      &kp T                        &trans   &trans  &trans  &trans  &trans  &trans
-&kp TAB          &kp LSHFT  &kp Z                   &kp A                   &TD_Erase  &kp H                        &trans   &trans  &trans  &trans  &trans  &trans
-&TD_Colorpeaker  &kp LALT   &kp F                   &kp C                   &kp V      &kp M                        &trans   &trans  &trans  &trans  &trans  &trans
-                            &mt LS(SPACE) NUMBER_2  &mt LC(SPACE) NUMBER_2  &TD_Brush  &mo 12  &kp SPACE    &trans  &tog 11  &trans  &trans  &trans
+&kp ESC          &kp RET    &kp LC(S)         &kp X                   &kp R      &kp T                        &trans   &trans  &trans  &trans  &trans  &trans
+&kp TAB          &kp LSHFT  &kp Z             &kp A                   &TD_Erase  &kp H                        &trans   &trans  &trans  &trans  &trans  &trans
+&TD_Colorpeaker  &kp LALT   &kp F             &kp C                   &kp V      &kp M                        &trans   &trans  &trans  &trans  &trans  &trans
+                            &mt LS(SPACE) N5  &mt LC(SPACE) NUMBER_2  &TD_Brush  &mo 12  &kp SPACE    &trans  &tog 11  &trans  &trans  &trans
             >;
         };
 
