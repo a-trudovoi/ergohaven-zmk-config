@@ -205,8 +205,8 @@
             bindings = <
 &trans  &kp LC(G)      &kp LC(E)       &kp LC(T)   &kp INS    &kp LC(INS)                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LS(LC(A))  &kp LC(A)       &kp LS(H)   &kp H      &kp LA(H)                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &kp LS(DELETE)  &kp DELETE  &kp LS(H)  &kp LC(N)                      &trans  &trans  &trans  &trans  &trans  &trans
-                       &kp LC(S)       &trans      &trans     &trans       &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(S)      &kp LS(DELETE)  &kp DELETE  &kp LS(H)  &kp LC(N)                      &trans  &trans  &trans  &trans  &trans  &trans
+                       &kp LC(C)       &kp LC(V)   &trans     &trans       &trans    &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
