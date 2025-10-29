@@ -174,7 +174,7 @@
             bindings = <
 &kp TILDE      &kp Q             &kp W             &kp E          &kp R               &kp T                                      &kp Y        &kp U                &kp I          &kp O             &kp P                &kp LEFT_BRACKET
 &mt LCTRL ESC  &hrml LEFT_GUI A  &hrml LEFT_ALT S  &hrml LCTRL D  &hrml LEFT_SHIFT F  &kp G                                      &kp H        &hrmr RIGHT_SHIFT J  &hrmr RCTRL K  &hrmr LEFT_ALT L  &hrmr LEFT_GUI SEMI  &lt 7 RIGHT_BRACKET
-&kp KP_ENTER   &kp Z             &kp X             &kp C          &kp V               &kp B                                      &kp N        &kp M                &kp COMMA      &kp DOT           &kp SQT              &kp ENTER
+&kp KP_ENTER   &kp Z             &kp X             &kp C          &kp V               &kp B &kp LBKT                    &kp RBKT &kp N        &kp M                &kp COMMA      &kp DOT           &kp SQT              &kp ENTER
                                                                   &lt 6 TAB           &BCSP_DEL_NAV 2 0  &lt 9 SPACE    &kp DOT  &lt 3 COMMA  &none                
             >;
 
@@ -189,7 +189,7 @@
             bindings = <
 &kp RU_CYRILLIC_IO  &kp RU_CYRILLIC_SHORT_I        &kp RU_CYRILLIC_TSE              &kp RU_CYRILLIC_U           &kp RU_CYRILLIC_KA              &kp RU_CYRILLIC_IE                             &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE         &kp RU_CYRILLIC_SHA         &kp RU_CYRILLIC_SHCHA          &kp RU_CYRILLIC_ZE          &kp RU_CYRILLIC_HA
 &mt LCTRL ESC       &hrml LEFT_GUI RU_CYRILLIC_EF  &hrml LEFT_ALT RU_CYRILLIC_YERU  &hrml LCTRL RU_CYRILLIC_VE  &hrml LEFT_SHIFT RU_CYRILLIC_A  &kp RU_CYRILLIC_PE                             &kp RU_CYRILLIC_ER  &hrmr RSHIFT RU_CYRILLIC_O  &hrmr RCTRL RU_CYRILLIC_EL  &hrmr LEFT_ALT RU_CYRILLIC_DE  &hrmr LGUI RU_CYRILLIC_ZHE  &lt 7 RU_CYRILLIC_HARD_SIGN
-&kp KP_ENTER        &kp RU_CYRILLIC_YA             &kp RU_CYRILLIC_CHE              &kp RU_CYRILLIC_ES          &kp RU_CYRILLIC_EM              &kp RU_CYRILLIC_I                              &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN   &kp RU_CYRILLIC_BE          &kp RU_CYRILLIC_YU             &kp RU_CYRILLIC_E           &kp ENTER
+&kp KP_ENTER        &kp RU_CYRILLIC_YA             &kp RU_CYRILLIC_CHE              &kp RU_CYRILLIC_ES          &kp RU_CYRILLIC_EM              &kp RU_CYRILLIC_I   &kp LBKT       &kp RBKT    &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN   &kp RU_CYRILLIC_BE          &kp RU_CYRILLIC_YU             &kp RU_CYRILLIC_E           &kp ENTER
                                                                                                                 &lt 6 TAB                       &BCSP_DEL_NAV 2 0   &lt 9 SPACE    &kp RU_DOT  &lt 4 RU_COMMA      &none
             >;
         };
@@ -198,7 +198,7 @@
             bindings = <
 &trans  &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                          &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8      &kp N9             &kp N0             &trans
 &trans  &trans     &trans     &trans     &trans     &kp RET                         &kp LEFT      &kp DOWN       &kp UP            &kp RIGHT          &kp LC(BACKSPACE)  &kp LC(DEL)
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp INS                         &kp HOME      &kp PAGE_DOWN  &kp PG_UP         &kp LC(END)        &kp PAUSE_BREAK    &kp PRINTSCREEN
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp INS  &trans         &trans  &kp HOME      &kp PAGE_DOWN  &kp PG_UP         &kp LC(END)        &kp PAUSE_BREAK    &kp PRINTSCREEN
                                          &trans     &trans   &trans    &kp K_CMENU  &mo 5         &trans
             >;
 
@@ -241,7 +241,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &kp KP_NUMLOCK   &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_SLASH     &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &kp KP_PLUS      &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MULTIPLY  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp KP_MINUS     &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT       &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_MINUS     &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT       &trans
                 &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_NUMBER_0  &trans     &trans     &trans
             >;
         };
@@ -250,7 +250,7 @@
             bindings = <
 &kp ESC          &kp RET    &kp LC(S)         &kp X                   &kp R      &kp T                        &trans   &trans  &trans  &trans  &trans  &trans
 &kp TAB          &kp LSHFT  &kp Z             &kp A                   &TD_Erase  &kp H                        &trans   &trans  &trans  &trans  &trans  &trans
-&TD_Colorpeaker  &kp LALT   &kp F             &kp C                   &kp V      &kp M                        &trans   &trans  &trans  &trans  &trans  &trans
+&TD_Colorpeaker  &kp LALT   &kp F             &kp C                   &kp V      &kp M   &trans       &trans  &trans   &trans  &trans  &trans  &trans  &trans
                             &mt LS(SPACE) N5  &mt LC(SPACE) NUMBER_2  &TD_Brush  &mo 12  &kp SPACE    &trans  &tog 11  &trans  &trans  &trans
             >;
         };
@@ -259,7 +259,7 @@
             bindings = <
 &trans         &kp LC(G)           &kp LC(E)   &kp LC(T)      &kp INS    &kp LC(INS)                    &trans  &trans  &trans  &trans  &trans  &trans
 &kp LC(LS(I))  &kp LS(LC(A))       &kp LC(A)   &kp LC(PG_UP)  &kp LA(H)  &kp LA(INS)                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans         &kp LC(LS(DELETE))  &kp DELETE  &kp LC(PG_DN)  &kp LS(H)  &kp LC(N)                      &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &kp LC(LS(DELETE))  &kp DELETE  &kp LC(PG_DN)  &kp LS(H)  &kp LC(N)    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                                    &kp LC(C)   &kp LC(V)      &trans     &trans       &trans    &trans  &trans  &trans  &trans  &trans
             >;
         };
@@ -268,7 +268,7 @@
             bindings = <
 &kp ESC    &kp GRAVE       &kp Q  &kp W  &kp E   &kp R                         &trans     &trans    &kp UP    &trans     &trans  &trans
 &kp RCTRL  &kp LEFT_SHIFT  &kp A  &kp S  &kp D   &kp F                         &trans     &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&kp LALT   &kp Z           &kp X  &kp C  &kp V   &kp B                         &trans     &trans    &trans    &trans     &trans  &trans
+&kp LALT   &kp Z           &kp X  &kp C  &kp V   &kp B      &trans    &trans   &trans     &trans    &trans    &trans     &trans  &trans
                            &kp I  &kp M  &trans  &kp SPACE  &mo 14    &tog 13  &kp SPACE  &trans    &trans    &trans
             >;
         };
@@ -277,7 +277,7 @@
             bindings = <
 &trans  &kp N1  &kp N2   &kp N3   &kp N4  &kp N5                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp N6  &kp N7   &kp N8   &kp N9  &kp N0                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp G   &kp J    &kp I    &kp M   &kp T                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp G   &kp J    &kp I    &kp M   &kp T   &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                 &kp ESC  &kp RET  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
         };
