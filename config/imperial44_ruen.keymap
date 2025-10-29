@@ -262,6 +262,7 @@
             >;
 
             display-name = "Krita 1";
+            sensor-bindings = <&inc_dec_kp LBRC RBRC>;
         };
 
         Krita2 {
