@@ -185,13 +185,16 @@
         };
 
         ru {
-            display-name = "Ru";
             bindings = <
 &kp RU_CYRILLIC_IO  &kp RU_CYRILLIC_SHORT_I        &kp RU_CYRILLIC_TSE              &kp RU_CYRILLIC_U           &kp RU_CYRILLIC_KA              &kp RU_CYRILLIC_IE                             &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE         &kp RU_CYRILLIC_SHA         &kp RU_CYRILLIC_SHCHA          &kp RU_CYRILLIC_ZE          &kp RU_CYRILLIC_HA
 &mt LCTRL ESC       &hrml LEFT_GUI RU_CYRILLIC_EF  &hrml LEFT_ALT RU_CYRILLIC_YERU  &hrml LCTRL RU_CYRILLIC_VE  &hrml LEFT_SHIFT RU_CYRILLIC_A  &kp RU_CYRILLIC_PE                             &kp RU_CYRILLIC_ER  &hrmr RSHIFT RU_CYRILLIC_O  &hrmr RCTRL RU_CYRILLIC_EL  &hrmr LEFT_ALT RU_CYRILLIC_DE  &hrmr LGUI RU_CYRILLIC_ZHE  &lt 7 RU_CYRILLIC_HARD_SIGN
 &kp KP_ENTER        &kp RU_CYRILLIC_YA             &kp RU_CYRILLIC_CHE              &kp RU_CYRILLIC_ES          &kp RU_CYRILLIC_EM              &kp RU_CYRILLIC_I   &kp LBKT       &kp RBKT    &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN   &kp RU_CYRILLIC_BE          &kp RU_CYRILLIC_YU             &kp RU_CYRILLIC_E           &kp ENTER
                                                                                                                 &lt 6 TAB                       &BCSP_DEL_NAV 2 0   &lt 9 SPACE    &kp RU_DOT  &lt 4 RU_COMMA      &none
             >;
+            display-name = "Ru";
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
+                <&inc_dec_kp PG_UP PG_DN>;
         };
 
         nav {
@@ -217,13 +220,14 @@
         };
 
         sym_ru {
-            display-name = "Symbols";
             bindings = <
 &trans  &en AT_SIGN  &en LT        &kp EQUAL     &en GT       &en GRAVE                        &trans          &en LBKT  &kp UNDER    &en RBKT  &trans      &trans
 &trans  &kp RU_BSLH  &kp LPAR      &kp MINUS     &kp RPAR     &kp PLUS                         &kp RU_PERCENT  &en LBRC  &kp RU_SEMI  &kp RBRC  &kp EXCL    &kp RU_QUESTION
 &trans  &en HASH     &kp RU_ASTRK  &kp RU_COLON  &kp RU_FSLH  &kp RU_NUMERO  &trans    &trans  &trans          &en PIPE  &en TILDE    &en AMPS  &kp RU_DOT  &trans
                                                  &trans       &mo 5          &trans    &trans  &trans          &trans
             >;
+
+            display-name = "Symbols";
         };
 
         adj {
@@ -244,6 +248,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_MINUS     &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT       &trans
                                 &trans  &trans  &trans    &trans  &kp KP_NUMBER_0  &trans     
             >;
+
+            display-name = "Navigation";
         };
 
         Krita1 {
@@ -253,6 +259,8 @@
 &TD_Colorpeaker  &kp LALT   &kp F             &kp C                   &kp V      &kp M   &trans       &trans  &trans   &trans  &trans  &trans  &trans  &trans
                                                                       &TD_Brush  &mo 12  &kp SPACE    &trans  &tog 11  &trans  
             >;
+
+            display-name = "Krita 1";
         };
 
         Krita2 {
@@ -262,6 +270,8 @@
 &trans         &kp LC(LS(DELETE))  &kp DELETE  &kp LC(PG_DN)  &kp LS(H)  &kp LC(N)    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                                                               &trans     &trans       &trans    &trans  &trans  &trans  
             >;
+
+            display-name = "Krita 2";
         };
 
         GameBase {
@@ -271,6 +281,8 @@
 &kp LALT   &kp Z           &kp X  &kp C  &kp V   &kp B      &trans    &trans   &trans     &trans    &trans    &trans     &trans  &trans
                                          &trans  &kp SPACE  &mo 14    &tog 13  &kp SPACE  &trans                    
             >;
+
+            display-name = "Game";
         };
 
         GameFunc {
@@ -280,6 +292,8 @@
 &trans  &kp G   &kp J    &kp I    &kp M   &kp T   &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                                   &trans  &trans  &trans    &trans  &trans  &trans                
             >;
+
+            display-name = "Game func";
         };
     };
 };
