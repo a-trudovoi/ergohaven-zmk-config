@@ -82,13 +82,13 @@
 
         cmben {
             bindings = <&layer_en>;
-            key-positions = <15 16>;
+            key-positions = <4 3>;
             layers = <1>;
         };
 
         cmbru {
             bindings = <&layer_ru>;
-            key-positions = <15 16>;
+            key-positions = <3 4>;
             layers = <0>;
         };
 
@@ -107,6 +107,12 @@
         SemiRU {
             bindings = <&kp RU_SEMI>;
             key-positions = <42 41>;
+            layers = <1>;
+        };
+
+        rusync {
+            bindings = <&to 0>;
+            key-positions = <8 7>;
             layers = <1>;
         };
     };
