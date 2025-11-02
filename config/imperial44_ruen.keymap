@@ -115,6 +115,24 @@
             key-positions = <8 7>;
             layers = <1>;
         };
+
+        Game_G {
+            bindings = <&kp G>;
+            key-positions = <5 17>;
+            layers = <9>;
+        };
+
+        Game_I {
+            bindings = <&kp I>;
+            key-positions = <5 4>;
+            layers = <9>;
+        };
+
+        Game_M {
+            bindings = <&kp M>;
+            key-positions = <17 29>;
+            layers = <9>;
+        };
     };
 
     macros {
@@ -240,7 +258,7 @@
         adj {
             bindings = <
 &tog 7       &kp F1  &kp F2   &kp F3   &kp F4   &trans                    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
-&tog 10      &kp F5  &kp F6   &kp F7   &kp F8   &trans                    &out OUT_BLE  &kp C_VOL_DN  &kp K_MUTE        &kp C_VOL_UP  &trans        &studio_unlock
+&tog 9       &kp F5  &kp F6   &kp F7   &kp F8   &trans                    &out OUT_BLE  &kp C_VOL_DN  &kp K_MUTE        &kp C_VOL_UP  &trans        &studio_unlock
 &bootloader  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans    &trans  &out OUT_USB  &kp K_PREV    &kp K_PLAY_PAUSE  &kp K_NEXT    &trans        &bootloader
                                        &trans   &trans  &trans    &trans  &trans        &trans
             >;
@@ -284,10 +302,10 @@
 
         GameBase {
             bindings = <
-&kp ESC    &kp GRAVE       &kp Q  &kp W  &kp E   &kp R                        &trans     &trans    &kp UP    &trans     &trans  &trans
-&kp RCTRL  &kp LEFT_SHIFT  &kp A  &kp S  &kp D   &kp F                        &trans     &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&kp LALT   &kp Z           &kp X  &kp C  &kp V   &kp B      &trans    &trans  &trans     &trans    &trans    &trans     &trans  &trans
-                                         &trans  &kp SPACE  &mo 10    &tog 9  &kp SPACE  &trans
+&kp ESC    &kp GRAVE       &kp Q  &kp W  &kp E    &kp R                        &trans     &trans    &kp UP    &trans     &trans  &trans
+&kp RCTRL  &kp LEFT_SHIFT  &kp A  &kp S  &kp D    &kp F                        &trans     &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&kp LALT   &kp Z           &kp X  &kp C  &kp V    &kp B      &trans    &trans  &trans     &trans    &trans    &trans     &trans  &trans
+                                         &kp TAB  &kp SPACE  &mo 10    &tog 9  &kp SPACE  &trans
             >;
 
             display-name = "Game";
