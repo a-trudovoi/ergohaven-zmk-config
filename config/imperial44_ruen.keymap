@@ -286,7 +286,7 @@
             >;
 
             display-name = "Krita 1";
-            sensor-bindings = <&inc_dec_kp LBKT RBKT>;
+            sensor-bindings = <&inc_dec_kp RBKT LBKT>;
         };
 
         Krita2 {
