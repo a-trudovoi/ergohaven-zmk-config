@@ -254,7 +254,7 @@
                    &trans     &trans     &trans     &trans   &trans    &kp K_CMENU  &mo 5         &trans         &kp LC(LG(LEFT))  &kp LG(LC(RIGHT))
             >;
 
-            display-name = "Navigation";
+            display-name = "Nav";
         };
 
         sym_en {

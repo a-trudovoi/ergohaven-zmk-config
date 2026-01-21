@@ -230,7 +230,7 @@
                                          &trans     &trans   &trans    &kp K_CMENU  &mo 5         &trans
             >;
 
-            display-name = "Navigation";
+            display-name = "Nav";
         };
 
         sym_en {
