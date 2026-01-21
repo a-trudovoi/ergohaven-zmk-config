@@ -202,7 +202,7 @@
                                                                   &mt LEFT_SHIFT TAB  &BCSP_DEL_NAV 2 0  &lt 6 SPACE    &kp DOT  &lt 3 COMMA  &kp QUESTION
             >;
 
-            display-name = "Base";
+            display-name = "En";
             sensor-bindings =
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>,
                 <&inc_dec_kp PG_UP PG_DN>;
@@ -274,7 +274,7 @@
                                 &trans  &trans  &trans    &trans  &kp KP_NUMBER_0  &trans
             >;
 
-            display-name = "Navigation";
+            display-name = "Num";
         };
 
         Krita1 {
@@ -285,7 +285,7 @@
                                               &TD_Brush  &mo 8  &kp SPACE    &trans  &tog 7  &trans
             >;
 
-            display-name = "Krita 1";
+            display-name = "Krita";
             sensor-bindings = <&inc_dec_kp RBKT LBKT>;
         };
 
