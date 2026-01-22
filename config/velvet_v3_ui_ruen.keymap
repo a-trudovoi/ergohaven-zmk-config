@@ -173,7 +173,7 @@
             bindings = <&kp LG(SPACE)>;
             label = "TO_RU";
             wait-ms = <0>;
-            tap-ms = <30>;
+            tap-ms = <0>;
         };
 
         to_en: to_en {
@@ -182,7 +182,7 @@
             bindings = <&kp LG(SPACE)>;
             label = "TO_EN";
             wait-ms = <0>;
-            tap-ms = <30>;
+            tap-ms = <0>;
         };
 
         layer_en: layer_en {
