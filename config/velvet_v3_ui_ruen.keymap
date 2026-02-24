@@ -168,7 +168,7 @@
         MbScrolMode {
             bindings = <&MBL_LT 7 MCLK>;
             key-positions = <44 45>;
-            layers = <0 1>;
+            layers = <0 1 8 6 3 4 2 9 7 5>;
         };
     };
 
