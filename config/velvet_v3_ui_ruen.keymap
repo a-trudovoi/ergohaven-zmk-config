@@ -147,12 +147,6 @@
             layers = <0>;
         };
 
-        MB3_combo {
-            bindings = <&mkp MB3>;
-            key-positions = <44 45>;
-            layers = <0 1>;
-        };
-
         SemiEN {
             bindings = <&kp SEMI>;
             key-positions = <42 41>;
@@ -168,7 +162,7 @@
         MbScrolMode {
             bindings = <&MBL_LT 7 MCLK>;
             key-positions = <44 45>;
-            layers = <0 1 8 6 3 4 2 9 7 5>;
+            layers = <0 1 2 3 4 5 6 7 8 9>;
         };
     };
 
